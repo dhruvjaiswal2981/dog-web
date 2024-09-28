@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Dog Vaccination Kit",
+        "description": "Complete kit for dog vaccinations.",
+        "image": "images/pr-1.jpg",
+        "price": "49.99",
+        "actualPrice": "59.99",
+        "stocks": 25,
+        "category": "Vaccinations"
+    },
+    {
+        "id": 2,
+        "name": "Flea and Tick Treatment",
+        "description": "Effective treatment for flea and tick prevention.",
+        "image": "images/pr-2.jpg",
+        "price": "29.99",
+        "actualPrice": "39.99",
+        "stocks": 30,
+        "category": "Treatments"
+    },
+    {
+        "id": 3,
+        "name": "Dog First Aid Kit",
+        "description": "Comprehensive first aid kit for dogs.",
+        "image": "images/pr-3.jpg",
+        "price": "39.99",
+        "actualPrice": "49.99",
+        "stocks": 15,
+        "category": "First Aid"
+    },
+    {
+        "id": 4,
+        "name": "Dog Thermometer",
+        "description": "Digital thermometer for accurate temperature readings.",
+        "image": "images/pr-4.jpg",
+        "price": "19.99",
+        "actualPrice": "24.99",
+        "stocks": 40,
+        "category": "Diagnostic Tools"
+    },
+    {
+        "id": 5,
+        "name": "Dog Bandage Wraps",
+        "description": "Elastic bandages for wound care and injury protection.",
+        "image": "images/pr-5.jpg",
+        "price": "14.99",
+        "actualPrice": "19.99",
+        "stocks": 60,
+        "category": "First Aid"
+    },
+    {
+        "id": 6,
+        "name": "Dog Antibiotic Ointment",
+        "description": "Topical antibiotic ointment for minor wounds and infections.",
+        "image": "images/pr-6.jpg",
+        "price": "12.99",
+        "actualPrice": "16.99",
+        "stocks": 50,
+        "category": "Medications"
+    },
+    {
+        "id": 7,
+        "name": "Ear Cleaning Solution",
+        "description": "Gentle ear cleaner for routine care and prevention of infections.",
+        "image": "images/pr-7.jpg",
+        "price": "9.99",
+        "actualPrice": "14.99",
+        "stocks": 35,
+        "category": "Hygiene"
+    },
+    {
+        "id": 8,
+        "name": "Dog Surgery Recovery Suit",
+        "description": "Protective recovery suit for post-surgery care.",
+        "image": "images/pr-8.jpg",
+        "price": "29.99",
+        "actualPrice": "39.99",
+        "stocks": 20,
+        "category": "Surgery"
+    },
+    {
+        "id": 9,
+        "name": "Dog Blood Pressure Monitor",
+        "description": "Easy-to-use blood pressure monitor for dogs.",
+        "image": "images/pr-9.jpg",
+        "price": "59.99",
+        "actualPrice": "69.99",
+        "stocks": 10,
+        "category": "Diagnostic Tools"
+    },
+    {
+        "id": 10,
+        "name": "Dog Muzzle",
+        "description": "Comfortable muzzle for safe veterinary visits and grooming.",
+        "image": "images/pr-10.jpg",
+        "price": "19.99",
+        "actualPrice": "24.99",
+        "stocks": 45,
+        "category": "Grooming"
+    },
+    {
+        "id": 11,
+        "name": "Dog Surgical Gloves",
+        "description": "Sterile gloves for surgical procedures.",
+        "image": "images/pr-11.jpg",
+        "price": "9.99",
+        "actualPrice": "12.99",
+        "stocks": 100,
+        "category": "Surgery"
+    },
+    {
+        "id": 12,
+        "name": "Dog Pain Relief Tablets",
+        "description": "Non-steroidal anti-inflammatory drugs (NSAIDs) for pain relief.",
+        "image": "images/pr-12.jpg",
+        "price": "19.99",
+        "actualPrice": "24.99",
+        "stocks": 60,
+        "category": "Medications"
+    }
+]

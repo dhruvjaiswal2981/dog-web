@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Clinic & Medical Supplies</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Navbar start-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" class="logo" />
+                <span class="title">Dog Clinic & Medical Supplies</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="index.html" id="navItem1">Home</a>
+                    <a class="nav-item nav-link" href="about.html" id="navItem2">About Us</a>
+                    <a class="nav-item nav-link" href="services.html" id="navItem3">Services</a>
+                    <a class="nav-item nav-link" href="medical-supplies.html" id="navItem4">Medical Supplies</a>
+                    <a class="nav-item nav-link" href="contact-us.html" id="navItem5">Contact Us</a>
+                    <a class="nav-item nav-link" href="addToCart.html" id="cartItem"><i class="fa-solid fa-cart-shopping"> 0 </i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar end-->
+
+    <section style="margin-top:85px;">
+        <div class="about-section pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="about-heading">ABOUT US</h1>
+                        <hr class="line"/>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="about-card p-3 mb-3">
+                            <h1 class="about-title mt-3">Welcome to Premier and Modern Dog Clinic, where we provide trustworthy and advanced healthcare solutions for your beloved pets. Our clinic is equipped with cutting-edge medical technologies to address every health concern your dog may have.</h1>
+                            <p class="about-description">Meet Our Specialists</p>
+                            <ul>
+                                <li>Dr. Aditya Vardhan Patidar<span class="bold">(B.V.Sc., M.V.Sc. – Gold Medalist in Veterinary Medicine, Canine Healthcare Specialist)</span> An expert in advanced canine care, including preventive treatments and complex surgeries.</li>
+                                <li class="pt-3">Dr. Nikita Patidar <span class="bold">(B.V.Sc., M.V.Sc. – Specialist in Veterinary Surgery and Orthopedics)</span> Skilled in surgical procedures, dental care, and pet rehabilitation.</li>
+                            </ul>
+                            <p class="about-description">Comprehensive Dog Healthcare Solutions</p>
+                            <div>
+                                <h5 class="mb-3"><i class="fa fa-check-circle text-primary mr-3"></i>Preventive Care</h5>
+                                <h5 class="mb-3"><i class="fa fa-check-circle text-primary mr-3"></i>Grooming and Hygiene</h5>
+                                <h5 class="mb-3"><i class="fa fa-check-circle text-primary mr-3"></i>Chronic Disease Management</h5>
+                                <h5 class="mb-3"><i class="fa fa-check-circle text-primary mr-3"></i>Alternative Therapies</h5>
+                                <h5 class="mb-3"><i class="fa fa-check-circle text-primary mr-3"></i>Nutrition</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/about-1.jpg" class="d-block w-100 about-img" alt="About Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/about-2.jpg" class="d-block w-100 about-img" alt="About Image 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/about-3.png" class="d-block w-100 about-img" alt="About Image 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/about-4.jpg" class="d-block w-100 about-img" alt="About Image 4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact start-->
+
+    <div class="contact-container pt-3 pb-3" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-6 mt-5">
+                    <h3 class="contact-heading mb-3">Quick Links</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="check-up-description" style="color: white;" href="#home"><i class="fa fa-solid fa-house-user text-white mr-2"></i>Home</a>
+                        <a class="check-up-description" style="color: white;" href="#about-us"><i class="fa fa-solid fa-address-card text-white mr-2"></i>About Us</a>
+                        <a class="check-up-description" style="color: white;" href="#services"><i class="fa fa-wrench text-white mr-2"></i>Services</a>
+                        <a class="check-up-description" style="color: white;" href="tel:+918370052464" target="_blank"><i class="fa fa-solid fa-suitcase-medical text-white mr-2"></i>Medical Supplies</a>
+                        <a class="check-up-description" style="color: white;" href="tel:+918370052464" target="_blank"><i class="fa fa-solid fa-address-book text-white mr-2"></i>Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 mt-5">
+                    <h3 class="contact-heading mb-3">Get In Touch</h3>
+                    <a href="https://goo.gl/maps/x9Z46HRS6G7Hykt1A" target="_blank" style="text-decoration: none;">
+                        <p class="mb-2 check-up-description"><i class="fa fa-solid fa-street-view text-white mr-2"></i>103 , abc near by city road</p>
+                    </a>
+                    <p class="mb-2 check-up-description"><i class="fa fa-envelope-open text-white mr-2"></i>dhruvujjain@gamil.com</p>
+                    <a href="tel:+918370052464" target="_blank" style="text-decoration: none;">
+                        <p class="mb-2 check-up-description"><i class="fa fa-phone fa-flip-horizontal text-white mr-2"></i>+91 83700 52464</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 mt-5">
+                    <h3 class="contact-heading mb-3">Follow Us</h3>
+                    <div class="d-flex">
+                        <a class="btn btn-dark app-icon m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-dark app-icon m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-dark app-icon m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-dark app-icon m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 mt-5">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7336.390474591618!2d75.78389304198222!3d23.163073366301933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396305df706b0375%3A0x22f82e9b54bab279!2sMahakal%20Veterinary%20clinic%20Pet%20wellness%20center!5e0!3m2!1sen!2sin!4v1727209960360!5m2!1sen!2sin" class="map-frame" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid text-light py-4 shadow" style="background: #291C1D;">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-md-6 text-center">
+                        <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="#home">Dog Clinic & Medical Supplies</a>. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <p class="mb-0">Designed by <a class="text-white border-bottom" href="#home">Dhruv Jaiswal</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </footer>
+    <!--contact end-->
+
+    
+    <script type="module" src="main.js"></script>
+
+</body>
+</html>
